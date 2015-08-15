@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE service [
+<!ELEMENT service (description,ID,Name,Available,OS,CPU,Memory,ScreenSize,Languages,Language,Locations,Location,Fee,Display,link)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Available (#PCDATA)>
+<!ELEMENT OS (#PCDATA)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT Memory (#PCDATA)>
+<!ELEMENT ScreenSize (#PCDATA)>
+<!ELEMENT Languages (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Locations (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Fee (#PCDATA)>
+<!ELEMENT Display (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+]>
+<service>
+	<description>
+		<ID>11112</ID>
+		<Name>GlobalWeather</Name>
+		<Available>YES</Available>	
+		<OS>1.6</OS>
+		<CPU>0.250</CPU>
+		<Memory>0.256</Memory>
+		<ScreenSize>800*480</ScreenSize>		
+			<Languages>
+			<Language>English</Language>		</Languages>
+			
+			<Locations>
+			<Location>All</Location>			</Locations>
+			
+			<Fee>Free</Fee>			<Display>Text</Display>
+			
+			<link>http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL</link>	
+	</description>
+</service>

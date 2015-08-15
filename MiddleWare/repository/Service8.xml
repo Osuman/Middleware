@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE service [
+<!ELEMENT service (description,ID,Name,Available,OS,CPU,Memory,ScreenSize,Languages,Language,Locations,Location,Fee,Display,link)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Available (#PCDATA)>
+<!ELEMENT OS (#PCDATA)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT Memory (#PCDATA)>
+<!ELEMENT ScreenSize (#PCDATA)>
+<!ELEMENT Languages (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Locations (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Fee (#PCDATA)>
+<!ELEMENT Display (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+]>
+<service>
+
+	<description>
+		<ID>11118</ID>
+		<Name>Meteorologisk institutt</Name>
+		<Available>YES</Available>
+		
+		<OS>3.0</OS>
+		<CPU>2</CPU>
+		<Memory>1</Memory>
+		<ScreenSize>960*540</ScreenSize>
+		
+			<Languages>
+			<Language>Norwegian</Language>
+			</Languages>
+			
+			<Locations>
+			<Location>ALL</Location>
+			</Locations>
+			
+			<Fee>Free</Fee>
+			<Display>Graphic</Display>
+			
+			<link>http://www.yr.no/</link>
+			
+	</description>
+
+</service>

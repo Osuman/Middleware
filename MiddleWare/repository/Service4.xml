@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE service [
+<!ELEMENT service (description,ID,Name,Available,OS,CPU,Memory,ScreenSize,Languages,Language,Locations,Location,Fee,Display,link)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Available (#PCDATA)>
+<!ELEMENT OS (#PCDATA)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT Memory (#PCDATA)>
+<!ELEMENT ScreenSize (#PCDATA)>
+<!ELEMENT Languages (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Locations (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Fee (#PCDATA)>
+<!ELEMENT Display (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+]>
+<service>
+
+	<description>
+		<ID>11114</ID>
+		<Name>YahooWeather</Name>
+		<Available>YES</Available>
+		
+		<OS>3.0</OS>
+		<CPU>1.0</CPU>
+		<Memory>0.512</Memory>
+		<ScreenSize>1024*768</ScreenSize>
+		
+			<Languages>
+			<Language>English</Language>
+			</Languages>
+			
+			<Locations>
+			<Location>All</Location>
+			</Locations>
+			
+			<Fee>Paying</Fee>
+			<Display>Graphic</Display>
+			
+			<link>https://developer.yahoo.com/weather/</link>
+			
+	</description>
+
+</service>
